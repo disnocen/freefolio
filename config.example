@@ -1,0 +1,5 @@
+[
+    {'format':'stdout'},
+    ('liliana',{'btc':4.5,'eth':6}),
+    ('fadi',{'btc':7.5,'eth':8}),
+]
