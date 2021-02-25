@@ -1,7 +1,7 @@
 #!/bin/sh
 
 sed -i s/disnocen/$USER/ freefolio.py
-mkdir -p $HOME/bin && cp freefolio.py $HOME/bin
+mkdir -p $HOME/bin && cp -i freefolio.py $HOME/bin
 echo "freefolio.py copied in $HOME/bin. Be sure that $HOME/bin is in your PATH"  
 echo "Installing pycoingecko"  
 which pip3 && pip3 install pycoingecko || echo "install python3-pip before going on"  
